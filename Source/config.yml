@@ -1,0 +1,35 @@
+# Config de items
+Poder-maximo:
+  Maximo-de-poder-maximo: 40.0
+  Customizacao:
+    Nome: "&ePoder máximo!"
+  Mensagens:
+    Limite-de-poder-maximo: "&c&lVoce ja tem o maximo de poder maximo."
+    Item-dado-com-sucesso: "&7&lVoce pegou&e&l %quantia%&7&l nether star com sucesso!"
+    Item-dado-com-sucesso-ao-player: "&7&lVoce deu &e&l%quantia%&7&l nehter star ao &e&l%alvo%&7&l com sucesso!"
+    Item-dado-com-sucesso-todos: "&7&lVocê deu &e&l%quantia%&7&l nether star a todos os players onlines no servidor"
+    Item-recebido-mensagem: "&7&lVoce recebeu &e&l%quantia%&7&l nether star do admin &e&l%admin%&7&l com sucesso!"
+    Item-usado-com-sucesso: "&7&lVoce usou uma nether star de poder maximo com sucesso!"
+
+Poder-adicional:
+  Valor: 1.0
+  Customizacao:
+    Nome: "&ePoder adicional"
+  Mensagens:
+    Powers-ja-completos: "&c&lVoce ja tem o maximo de power!"
+    Item-dado-com-sucesso: "&7&lVoce pegou &e&l&e%quantia%&7&l nether stars com sucesso!"
+    Item-dado-com-sucesso-ao-player: "&7&lVoce deu &e&l%quantia% &7&lao &e&l%alvo%&7&l com sucesso!"
+    Item-dado-com-sucesso-todos: "&7&lVoce deu &e&l%quantia% &7&l nether stars &7&l a todos!"
+    Item-recebido-mensagem: "&7&lVoce recebeu &e&l%quantia%&7&l nether stars do admin &e&l%admin%&2 com sucesso!"
+    Item-usado-com-sucesso: "&7&lVoce usou uma nether star de +1 de poder com sucesso, seu poder atual: &e&l[newpower]"
+
+Configuracao:
+  # Limite-por-comando™ só irá funcionar se o anti-abusers estiver true
+  Anti-abusers: true
+  Limite-por-comando: 128
+  # Permissão de admin  smpower.admin
+  Player-offline: "&cPlayer não encontrado!"
+  Apenas-players: "&cApenas players podem usar este comando!"
+  Apenas-numeros: "&cUse apenas numeros, não letras..."
+  Sem-permissao: "&cVocê não tem permissão para usar este comando."
+  Nenhum-player-online: "&cNão encontramos nenhum player online, tente novamente mais tarde!"
