@@ -10,7 +10,6 @@ import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import ptbr.gabrielsm.smpower.Main;
@@ -49,40 +48,6 @@ public class Metodos {
 				p.getInventory().addItem(stack);
 			}
 
-		}
-	}
-	public static void removeItems(PlayerInventory inv, Material tipo, int quantia) {
-		for (ItemStack stack : inv.getContents()) {
-			if(stack.getItemMeta().getEnchants().containsKey(Enchantment.DAMAGE_ALL) && stack.getType() == Material.NETHER_STAR){
-				if (stack != null && stack.getType() == tipo) {
-					int nvquantia= stack.getAmount() - quantia;
-					if (nvquantia > 0) {
-						stack.setAmount(nvquantia);
-						break;
-					} else {
-						inv.remove(stack);
-						quantia = -nvquantia;
-						if (quantia == 0) {
-							break;
-						}
-					}
-				}
-			}
-			if (stack.getItemMeta().getEnchants().containsKey(Enchantment.ARROW_FIRE) && stack.getType().equals(Material.NETHER_STAR)){
-				if (stack != null && stack.getType() == tipo) {
-					int nvquantia= stack.getAmount() - quantia;
-					if (nvquantia > 0) {
-						stack.setAmount(nvquantia);
-						break;
-					} else {
-						inv.remove(stack);
-						quantia = -nvquantia;
-						if (quantia == 0) {
-							break;
-						}
-					}
-				}
-			}
 		}
 	}
 	public static String getString(String local, String config){
