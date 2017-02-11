@@ -18,9 +18,9 @@ public class Main extends JavaPlugin{
 		saveDefaultConfig();
 		getServer().getPluginManager().registerEvents(new Events(), this);
 		pl = this;
-		c.sendMessage("+------===[§a§lSmPower§f]===------+");
+		c.sendMessage("§f+------===[§a§lSmPower§f]===------+");
 		c.sendMessage("§ePlugin iniciado com sucesso!");
-		c.sendMessage("+------===[§a§lSmPower§f]===------+");
+		c.sendMessage("§f+------===[§a§lSmPower§f]===------+");
 		getCommand("smpower").setExecutor(new Commands());
 	}
 	
