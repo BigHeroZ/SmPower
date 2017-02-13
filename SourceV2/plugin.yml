@@ -1,0 +1,8 @@
+name: SmPower
+version: 2.0
+description: Plugin de power
+main: ptbr.gabrielsm.smpower.Main
+author: Gabriel_Sm
+depend: [Factions]
+commands:
+  smpower:
