@@ -1,0 +1,7 @@
+name: SmPower
+version: 2.1
+description: Plugin de power
+main: ptbr.gabrielsm.smpower.Main
+author: Gabriel_Sm
+commands:
+  smpower:
